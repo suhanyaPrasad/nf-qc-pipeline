@@ -12,5 +12,6 @@ sample,R1,R2
 Ecoli1,/abs/Ecoli1_R1.fastq.gz,/abs/Ecoli1_R2.fastq.gz
 
 
-## Pipeline usage 
+
+** Pipeline usage **
 nextflow run . -profile conda --samples samples.csv --outdir results --trim true
