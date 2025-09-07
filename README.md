@@ -10,3 +10,10 @@ CSV with header `sample,R1,R2`, e.g.:
 ```csv
 sample,R1,R2
 Ecoli1,/abs/Ecoli1_R1.fastq.gz,/abs/Ecoli1_R2.fastq.gz
+
+
+## Run the pipeline
+
+With Conda:
+```bash
+nextflow run . -profile conda --samples samples.csv --outdir results --trim true
