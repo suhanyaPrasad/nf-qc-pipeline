@@ -1,0 +1,13 @@
+work/
+results/
+.nextflow*
+*.nextflow*
+.cache/
+report.html
+timeline.html
+trace.txt
+dag.png
+.params.json
+
+.DS_Store
+Thumbs.db
