@@ -1,6 +1,6 @@
 # nf-qc-pipeline
 
-Minimal Nextflow (DSL2) QC for paired-end bacterial reads:
+Nextflow QC for paired-end bacterial reads:
 - fastp (optional trimming)
 - FastQC
 - MultiQC
