@@ -17,5 +17,5 @@ Ecoli1,/abs/Ecoli1_R1.fastq.gz,/abs/Ecoli1_R2.fastq.gz
 Run the pipeline with Conda:
 
 ```bash
-nextflow run . -profile conda --samples samples.csv --outdir results --trim true
+nextflow run . -profile conda --samples samples.csv --outdir results --trim
 ```
